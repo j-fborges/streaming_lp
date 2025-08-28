@@ -1,5 +1,131 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Thin.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-ThinItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chivo";
+  src: url("../assets/Chivo-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Kollektif, sans-serif;
+  src: url("../assets/Kollektif.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("../assets/Kollektif-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("../assets/Kollektif-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kollektif";
+  src: url("../assets/Kollektif-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +137,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  font-family: Chivo;
+  box-sizing: border-box;
+  /* font-weight: 400; */
+}
+
+
+.swiper-container {
+  max-width: 100%;
+}
 
 
 
