@@ -148,5 +148,9 @@
   max-width: 100%;
 }
 
+.swiper-backface-hidden {
+  background-color: transparent
+}
+
 
 
