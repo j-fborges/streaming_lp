@@ -24,21 +24,21 @@ function BackdropCarousel() {
           mousewheel
           pagination
           controller={{ control: controlledSwiper }}
-          className="h-[400px]"
+          className="h-[400px] max-sm:h-[250px]"
           preventClicks
           preventInteractionOnTransition
           preventClicksPropagation
         >
           <SwiperSlide className="">
             <div className="w-[100%] p-4">
-              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent">
+              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent max-sm:text-lg max-sm:w-[180px]">
                 Filmes premiados e indicados nos melhores festivais!
               </span>
             </div>
           </SwiperSlide>
           <SwiperSlide className="">
             <div className="w-[100%] p-4">
-              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent">
+              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent max-sm:text-lg max-sm:w-[180px]">
                 Uma biblioteca das séries mais recentes aos blockbusters mais
                 antigos!
               </span>
@@ -46,7 +46,7 @@ function BackdropCarousel() {
           </SwiperSlide>
           <SwiperSlide className="">
             <div className="w-[100%] p-4">
-              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent">
+              <span className="flex flex-row text-3xl font-black  text-white w-[400px] ml-[5%] mt-0 p-4 bg-transparent max-sm:text-lg max-sm:w-[300px]">
                 Classicos dos maiores estúdios ou produções independentes, a sua
                 disposição
               </span>
@@ -61,7 +61,7 @@ function BackdropCarousel() {
         direction={"vertical"}
         modules={[ Controller]}
         onSwiper={setControlledSwiper}
-        className="w-[100%] h-[400px]"
+        className="w-[100%] h-[400px] max-sm:h-[250px]"
       >
         <SwiperSlide className="">
           <div className="w-[100%]">
@@ -69,7 +69,7 @@ function BackdropCarousel() {
               <img
                 src={`https://image.tmdb.org/t/p/original${backdrops[0].backdrop_path}`}
                 alt=""
-                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden"
+                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden max-sm:object-cover max-sm:h-[250px] max-sm:right-[-8%] lg:max-h-[35vw] lg:right-[0%]"
               />
             )}
           </div>
@@ -80,7 +80,7 @@ function BackdropCarousel() {
               <img
                 src={`https://image.tmdb.org/t/p/original${backdrops[1].backdrop_path}`}
                 alt=""
-                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden"
+                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden max-sm:object-cover max-sm:h-[250px] max-sm:right-[-8%] lg:max-h-[35vw] lg:right-[0%]"
               />
             )}
           </div>
@@ -91,13 +91,13 @@ function BackdropCarousel() {
               <img
                 src={`https://image.tmdb.org/t/p/original${backdrops[2].backdrop_path}`}
                 alt=""
-                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden"
+                className="absolute top-0 right-[-20%] z-[-2] object-cover object-right overflow-hidden max-sm:object-cover max-sm:h-[250px] max-sm:right-[-8%] lg:max-h-[35vw] lg:right-[0%]"
               />
             )}
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="absolute top-0 right-0 z-[4] h-[400px] w-[100%] bg-linear-to-r from-black from-35% to-transparent to-70%"></div>
+      <div className="absolute top-0 right-0 z-[4] h-[400px] max-sm:h-[250px] w-[100%] bg-linear-to-r from-black from-35% lg:from-40% to-transparent to-70%"></div>
     </section>
   );
 }

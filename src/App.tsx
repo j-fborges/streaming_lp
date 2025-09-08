@@ -19,6 +19,7 @@ function App() {
       <TrendingCarousel />
       <ChoosePlan />
       <FAQ/>
+      <RegisterForm />
     </>
   );
 }
