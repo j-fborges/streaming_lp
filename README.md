@@ -3,7 +3,7 @@
 > [!TIP]
 > Acess the website at [streaming-lp.vercel.app](streaming-lp.vercel.app)
 
-# Landing page for Movies & Series Streaming Service with dynamic data from TMDB
+# Landing page for a fictional Movies & Series Streaming Service with dynamic data from TMDB
 
 [TMDB - https://www.themoviedb.org/](https://www.themoviedb.org/)
 
